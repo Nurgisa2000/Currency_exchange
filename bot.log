@@ -1,0 +1,119 @@
+2024-08-14 16:02:15,331 - __main__ - INFO - Starting the application...
+2024-08-14 16:02:17,604 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 16:02:17,604 - TeleBot - ERROR - Break infinity polling
+2024-08-14 16:03:02,657 - __main__ - INFO - Starting the application...
+2024-08-14 16:46:04,029 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 16:46:04,037 - TeleBot - ERROR - Break infinity polling
+2024-08-14 16:51:53,950 - __main__ - INFO - User table created successfully
+2024-08-14 16:51:53,951 - __main__ - INFO - Starting the application...
+2024-08-14 16:53:59,348 - __main__ - INFO - User 643824875 inserted successfully
+2024-08-14 16:56:14,176 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 16:56:14,176 - TeleBot - ERROR - Break infinity polling
+2024-08-14 16:56:17,270 - __main__ - INFO - User table created successfully
+2024-08-14 16:56:17,270 - __main__ - INFO - Starting the application...
+2024-08-14 17:10:38,862 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:10:38,862 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:12:22,563 - __main__ - INFO - User table created successfully
+2024-08-14 17:12:22,564 - __main__ - INFO - Starting the application...
+2024-08-14 17:12:30,367 - __main__ - INFO - User 643824875 inserted successfully
+2024-08-14 17:14:16,020 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:14:16,020 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:14:17,672 - __main__ - INFO - User table created successfully
+2024-08-14 17:14:17,673 - __main__ - INFO - Starting the application...
+2024-08-14 17:21:22,788 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:21:22,788 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:23:18,735 - __main__ - INFO - User table created successfully
+2024-08-14 17:23:18,735 - __main__ - INFO - Starting the application...
+2024-08-14 17:23:27,670 - __main__ - INFO - User 643824875 inserted successfully
+2024-08-14 17:23:50,805 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:23:50,805 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:41:24,709 - __main__ - INFO - User table created successfully
+2024-08-14 17:41:24,710 - __main__ - INFO - Starting the application...
+2024-08-14 17:44:33,849 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:44:33,850 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:44:35,876 - __main__ - INFO - User table created successfully
+2024-08-14 17:44:35,877 - __main__ - INFO - Starting the application...
+2024-08-15 17:16:53,873 - __main__ - INFO - User table created successfully
+2024-08-15 17:16:53,874 - __main__ - INFO - Starting the application...
+2024-08-15 17:23:08,393 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-15 17:23:08,394 - TeleBot - ERROR - Break infinity polling
+2024-08-15 17:23:10,223 - __main__ - INFO - User table created successfully
+2024-08-15 17:23:10,224 - __main__ - INFO - Starting the application...
+2024-08-15 17:24:50,103 - __main__ - INFO - User 1927301017 inserted successfully
+2024-08-15 17:27:37,309 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-15 17:27:37,311 - TeleBot - ERROR - Break infinity polling
+2024-08-15 17:27:39,955 - __main__ - INFO - User table created successfully
+2024-08-15 17:27:39,955 - __main__ - INFO - Starting the application...
+2024-08-15 17:27:48,828 - TeleBot - ERROR - Infinity polling exception: invalid literal for int() with base 10: 'апрол'
+2024-08-15 17:27:48,829 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1179, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1254, in __threaded_polling
+    raise e
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1216, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 8715, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/main.py", line 85, in base_currency_function
+    if int(rate) <= 0:
+ValueError: invalid literal for int() with base 10: 'апрол'
+
+2024-08-15 17:27:51,834 - TeleBot - ERROR - Infinity polling exception: invalid literal for int() with base 10: 'рр'
+2024-08-15 17:27:51,835 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1179, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1254, in __threaded_polling
+    raise e
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1216, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 8715, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/main.py", line 85, in base_currency_function
+    if int(rate) <= 0:
+ValueError: invalid literal for int() with base 10: 'рр'
+
+2024-08-15 17:30:57,496 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-15 17:30:57,497 - TeleBot - ERROR - Break infinity polling
+2024-08-15 17:30:59,391 - __main__ - INFO - User table created successfully
+2024-08-15 17:30:59,391 - __main__ - INFO - Starting the application...
+2024-08-15 17:31:24,196 - TeleBot - ERROR - Infinity polling exception: invalid literal for int() with base 10: 'ждло'
+2024-08-15 17:31:24,198 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1179, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1254, in __threaded_polling
+    raise e
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1216, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 8715, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "/home/nurgisa/Champions/TelegramBot/ExchangeBot/main.py", line 85, in base_currency_function
+    if int(rate) <= 0:
+ValueError: invalid literal for int() with base 10: 'ждло'
+
+2024-08-15 17:33:22,536 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-15 17:33:22,537 - TeleBot - ERROR - Break infinity polling
+2024-08-15 17:33:24,254 - __main__ - INFO - User table created successfully
+2024-08-15 17:33:24,254 - __main__ - INFO - Starting the application...
+2024-08-15 17:38:48,177 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-15 17:38:48,186 - TeleBot - ERROR - Break infinity polling
